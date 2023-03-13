@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family= Outfit :wght@400;700 & display=swap');
+:root {
+    --primary-color: hsl(0, 0%, 100%) ;
+    --secondary-color: hsl(212, 45%, 89%);
+    --tertiary-color: hsl(220, 15%, 55%);
+    --quaternary-color: hsl(218, 44%, 22%);
+}
+body{
+    background: var(--secondary-color);
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+}
+
+#caixa{
+    width: 250px;
+    height: 390px;
+    margin: 100px auto;    
+    border-radius: 20px; 
+    padding: 10px;
+    box-shadow: 5px 5px 5px var(--tertiary-color);
+    background-color: var(--primary-color);
+}
+
+#image{
+    padding-top: 1px;
+}
+
+#title{
+    text-align: center; 
+}
+
+#description{
+    color: var(--tertiary-color);
+    font-size: 13px;
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+}
